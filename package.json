@@ -22,7 +22,8 @@
   "dependencies": {
     "@electron-toolkit/preload": "^2.0.0",
     "@electron-toolkit/utils": "^2.0.0",
-    "@mdxeditor/editor": "^1.14.3"
+    "@mdxeditor/editor": "^1.14.3",
+    "jotai": "^2.6.1"
   },
   "devDependencies": {
     "@electron-toolkit/eslint-config-prettier": "^1.0.1",
