@@ -21,12 +21,14 @@
   },
   "dependencies": {
     "@electron-toolkit/preload": "^2.0.0",
-    "@electron-toolkit/utils": "^2.0.0"
+    "@electron-toolkit/utils": "^2.0.0",
+    "@mdxeditor/editor": "^1.14.3"
   },
   "devDependencies": {
     "@electron-toolkit/eslint-config-prettier": "^1.0.1",
     "@electron-toolkit/eslint-config-ts": "^1.0.0",
     "@electron-toolkit/tsconfig": "^1.0.1",
+    "@tailwindcss/typography": "^0.5.10",
     "@types/node": "^18.17.5",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
