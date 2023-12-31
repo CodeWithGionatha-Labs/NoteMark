@@ -42,6 +42,7 @@
     "electron-vite": "^1.0.27",
     "eslint": "^8.47.0",
     "eslint-plugin-react": "^7.33.2",
+    "lodash": "^4.17.21",
     "postcss": "^8.4.32",
     "prettier": "^3.0.2",
     "react": "^18.2.0",
