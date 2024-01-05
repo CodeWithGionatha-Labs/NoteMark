@@ -1,10 +1,8 @@
-# note-mark
+# NoteMark
 
-An Electron application with React and TypeScript
+A minimal Note taking app with out-of-the-box markdown support.
 
-## Recommended IDE Setup
-
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+![Preview](https://github.com/gionathas/NoteMark/assets/16454253/fcfff9dd-04a0-4b62-9cfb-db57ccd6f7aa)
 
 ## Project Setup
 
