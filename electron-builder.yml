@@ -41,3 +41,13 @@ npmRebuild: false
 publish:
   provider: generic
   url: https://example.com/auto-updates
+
+electronBuilder:
+  config:
+    win: 
+      certificateFile: null
+      certificatePassword: null
+    mac:
+      identity: null
+    linux:
+      category: null
