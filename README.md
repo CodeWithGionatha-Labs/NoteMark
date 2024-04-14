@@ -1,8 +1,10 @@
 # NoteMark
 
-A minimal Note taking app with out-of-the-box markdown support.
+A Note taking desktop app with out-of-the-box markdown support. Built with Electron and React.
 
-![Preview](https://github.com/gionathas/NoteMark/assets/16454253/fcfff9dd-04a0-4b62-9cfb-db57ccd6f7aa)
+You can follow along the entire development of this project here 👇
+
+[![Preview](https://github.com/gionathas/NoteMark/assets/16454253/c5072721-8c51-450d-ad74-431c65247715)](https://youtu.be/t8ane4BDyC8?si=QDnKwHR_REREtiSy)
 
 ## Project Setup
 
