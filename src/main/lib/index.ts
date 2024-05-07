@@ -1,15 +1,16 @@
-import { appDirectoryName, fileEncoding, welcomeNoteFilename } from '@shared/constants'
 import { NoteInfo } from '@shared/models'
 import { CreateNote, DeleteNote, GetNotes, ReadNote, WriteNote } from '@shared/types'
 import { dialog } from 'electron'
 import { ensureDir, readFile, readdir, remove, stat, writeFile } from 'fs-extra'
 import { isEmpty } from 'lodash'
-import { homedir } from 'os'
+import os from 'os'
 import path from 'path'
 import welcomeNoteFile from '../../../resources/welcomeNote.md?asset'
+import { appDirectoryName, fileEncoding, welcomeNoteFilename } from '../../shared/constants'
 
 export const getRootDir = () => {
-  return `${homedir()}/${appDirectoryName}`
+  const homedir = os.homedir()
+  return path.join(homedir, appDirectoryName)
 }
 
 export const getNotes: GetNotes = async () => {
@@ -42,7 +43,7 @@ export const getNoteInfoFromFilename = async (filename: string): Promise<NoteInf
   const fileStats = await stat(`${getRootDir()}/${filename}`)
 
   return {
-    title: filename.replace(/\.md$/, ''),
+    title: filename.replace('.md', ''),
     lastEditTime: fileStats.mtimeMs
   }
 }
