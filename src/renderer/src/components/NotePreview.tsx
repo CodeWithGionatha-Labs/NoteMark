@@ -15,7 +15,6 @@ export const NotePreview = ({
   ...props
 }: NotePreviewProps) => {
   const date = formatDateFromMs(lastEditTime)
-
   return (
     <div
       className={cn(

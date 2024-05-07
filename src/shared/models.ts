@@ -1,4 +1,4 @@
-export type NoteInfo = {
+export interface NoteInfo {
   title: string
   lastEditTime: number
 }
